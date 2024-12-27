@@ -1,6 +1,7 @@
 {
-  "name": "piixon",
-  "version": "0.1.0",
+  "homepage":  "http://www.aes-smiesko.sk",
+  "name": "aes-smiesko.sk",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
@@ -41,7 +42,9 @@
     "test": "react-scripts test --ci --coverage",
     "eject": "react-scripts eject",
     "format": "eslint src --fix",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -110,6 +113,7 @@
   },
   "devDependencies": {
     "@types/react-router-hash-link": "^2.4.5",
-    "babel-plugin-macros": "^3.1.0"
+    "babel-plugin-macros": "^3.1.0",
+    "gh-pages": "^6.2.0"
   }
 }
