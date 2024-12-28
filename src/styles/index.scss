@@ -319,6 +319,31 @@
     }
 }
 
+@media screen and (max-width:480px) {
+    .phoneNumber {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .quickIcons {
+        font-size: 0.7em;
+        margin-left: 0;
+        text-align: left;
+        float: none;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .phoneNumber {
+        font-size: 1em;
+    }
+    .btn-rec-s1, a.btn-rec-s1, .btn-rec-s1[type="input"], .btn-rec-s1[type="file"], .btn-rec-s1[type="button"], .btn-rec-s1[type="reset"], .btn-rec-s1[type="submit"] {
+        font-size: 0.5em !important;
+        text-shadow: none !important;
+    }
+}
+
 @media screen and (max-width:640px) {
     .wrapper {
         max-width: 100%;
