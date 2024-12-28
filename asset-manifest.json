@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.0292d8db.css",
-    "main.js": "/static/js/main.fae33759.js",
+    "main.css": "/static/css/main.eed67941.css",
+    "main.js": "/static/js/main.32c380b6.js",
     "static/js/787.ef9b0481.chunk.js": "/static/js/787.ef9b0481.chunk.js",
     "static/media/general-projects-wallpaper.jpg": "/static/media/general-projects-wallpaper.5dcd06c65f75c8859cb3.jpg",
     "static/media/welcome-wallpaper.jpg": "/static/media/welcome-wallpaper.955ab75d8b5856812ce3.jpg",
     "static/media/art-wallpaper.jpg": "/static/media/art-wallpaper.71da98d470879beca1cb.jpg",
     "static/media/web-development-wallpaper.jpg": "/static/media/web-development-wallpaper.9acfd3df54ec45906ec0.jpg",
-    "static/media/multimedia-wallpaper.jpg": "/static/media/multimedia-wallpaper.a3c4c90ce8c41ee20ce7.jpg",
     "static/media/me.png": "/static/media/me.16b7eb327a3bae0796ca.png",
     "static/media/about-wallpaper.jpg": "/static/media/about-wallpaper.08a0fbd6cc5f57fa2c48.jpg",
     "service-worker.js": "/service-worker.js",
@@ -16,12 +15,12 @@
     "static/media/Roboto-Regular.woff2": "/static/media/Roboto-Regular.e4c110157da34f0e872b.woff2",
     "static/media/Inter-Regular.woff2": "/static/media/Inter-Regular.b0a21561d96f6b662763.woff2",
     "index.html": "/index.html",
-    "main.0292d8db.css.map": "/static/css/main.0292d8db.css.map",
-    "main.fae33759.js.map": "/static/js/main.fae33759.js.map",
+    "main.eed67941.css.map": "/static/css/main.eed67941.css.map",
+    "main.32c380b6.js.map": "/static/js/main.32c380b6.js.map",
     "787.ef9b0481.chunk.js.map": "/static/js/787.ef9b0481.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0292d8db.css",
-    "static/js/main.fae33759.js"
+    "static/css/main.eed67941.css",
+    "static/js/main.32c380b6.js"
   ]
 }
