@@ -283,7 +283,7 @@ const ProjectForm = styled.article`
         --section-text-display: block;
         --section-text-color: #222 !important;
         --section-font_family: 'Roboto', sans-serif;
-        --section-font_size: 20px;
+        --section-font_size: 1.6vmax;
         --section-font_weight: bold;
         --section-font_style: normal;
         --section-text_decoration: none;
@@ -578,8 +578,7 @@ const MainPage = () => {
               tridsať rokov.</h2>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInDown">
-            <h2>Mám inžiniersky titul z Technickej univerzity v Košiciach so špecializáciou v odbore
-              nanotechnológie.</h2>
+            <h2>Mám inžiniersky titul z Technickej univerzity v Košiciach.</h2>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeInDown">
             <h2>Som držiteľom <b>certifikácie pre montáž vozidlových zabezpečovacích systémov (Meta System)</b> a
@@ -773,11 +772,6 @@ const MainPage = () => {
           <div className="phoneNumber margin20">
             <FontAwesomeIcon icon={solid('phone')} size="1x"/> +421 905 627 526
           </div>
-        </div>
-        <div className="grid-wrapper-column">
-          <ButtonRegular className="center" linkRef="mailto:joz.smiesko@gmail.com" btnMargin="20px auto" btnColor={whiteRegular} btnHover={buttonColor} btnTextColor="#000" btnTextHoverColor={whiteRegular} btnText="joz.smiesko@gmail.com">
-            <FontAwesomeIcon pull="right" icon={solid('envelope')} size="1x" />
-          </ButtonRegular>
         </div>
         <div className="grid-wrapper-column">
           <SoMe category="reach" />
